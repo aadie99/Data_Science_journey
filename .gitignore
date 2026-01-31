@@ -1,0 +1,23 @@
+# PDFs & Docs
+*.pdf
+*.pptx
+*.docx
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Notebooks
+.ipynb_checkpoints/
