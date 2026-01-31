@@ -1,0 +1,27 @@
+Root User 
+1. Created automatically when an AWS acccount is created.
+2. Full, unrestricted access to all AWS services and account-level settings.
+3. Very powerful and not used for daily tasks.
+4. Used only for account-level tasks (billing, account closure, MFA).
+5. MFA must be enabled.
+
+# Root-only actions: (This cannot be done by IAM users even with AdministratorAccess)
+1. Change account email
+2. Change root password
+3. Enable / disable root MFA
+4. Close AWS account
+5. Change support plan
+6. View billing & payment info (by default)
+7. Register for some services initially
+
+IAM user
+1. Identities created inside the AWS account for specific people or applications.
+2. Given only required permissions using IAM policies, following the principle of least privilege.
+3. Used for day-to-day operations.
+4. Starts with no permissions by default.
+
+# IAM users are used for:
+1. Creating resources (EC2, S3, RDS, etc.)
+2. Managing IAM policies & roles (if allowed)
+3. Running CLI / SDK
+4. Daily operational work
