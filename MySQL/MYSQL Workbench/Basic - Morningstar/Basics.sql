@@ -1,8 +1,7 @@
 -- MySQL is a RDBMS that stores relational databases in tables in form of rows and columns
 -- It uses SQL as standard query language. SQL is used to interact with this RDBMS
--- DDL = CREATE ALTER-Add, Modify, Drop DROP TRUNCATE
-         -- Create database, Create Table
--- DML = InsertInto DeleteFrom Update 
+-- DDL = CREATE ALTER-(Add, Modify, Drop) DROP TRUNCATE
+         -- Create database, Create Table--- DML = InsertInto DeleteFrom Update 
 -- DQL = Select Where Distinct Describe Orderby Limit/Offset Aggregate Fns-Count()Avg()Max()Min() Groupby Having
 -- DCL = Grant Revoke
 -- TCL = Commit Rollback Savepoint
@@ -87,5 +86,15 @@ Describe mobile_data;
 
 -- Query to check which column is Primary key
 SELECT Column_name FROM Information_schema.Key_column_usage
-Where Table_schema = 'mobile_data' 
-AND Table_name = 'mobile_data' AND Constraint_name = 'Primary';
+Where Table_schema = 'morningstar' 
+AND Table_name = 'LCTR' AND Constraint_name = 'Primary';
+
+SELECT * FROM mobile_data.mobile_data;
+SELECT 
+    *
+FROM
+    mobile_data.mobile_data
+WHERE
+    Brands = 'realme'
+        AND Internal_Storage = '128 GB'
+ORDER BY RAM_Storage , Selfie_Camera;

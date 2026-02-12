@@ -1,17 +1,66 @@
 -- When using GROUP BY, every selected column must either be:
 -- 1.Included in the GROUP BY clause, or
 -- 2.Wrapped inside an aggregate function.
+
+-- Remember this rule:
 -- WHERE before GROUP BY, HAVING after GROUP BY
+
+-- ERRORS:
+-- Error Code: 1140. In aggregated query without GROUP BY, 
+-- expression #2 of SELECT list contains nonaggregated column 'google.Employee.first_name'; 
+-- this is incompatible with sql_mode=only_full_group_by
+
+-- Error Code: 1055. Expression #2 of SELECT list is not in GROUP BY clause 
+-- and contains nonaggregated column 'google.Employee.first_name' which is not functionally dependent on columns in GROUP BY clause; 
+-- this is incompatible with sql_mode=only_full_group_by
+
+-- Error Code: 1231. Variable 'sql_mode' can't be set to the value of 'NO_ENGINE_SUBSTITUTIONONLY_FULL_GROUP_BY'
+
+-- CONSTRAINTS:-
 -- ON DELETE SET NULL - ensures that when a referenced parent row is deleted, 
 -- 1.the foreign key in the child row is automatically set to NULL, 
 -- 2.preserving the child record while maintaining referential integrity.
 -- ON DELETE CASCADE - Automatically deletes child rows when the referenced parent row is deleted.
--- RESTRICT
--- NO ACTION
+-- RESTRICT - Prevents deletion of child rows when it exist
+-- NO ACTION - Similar to Restrict
 -- A referenced table must already exist before a FOREIGN KEY can point to it
 -- Foreign key error (1452) happens when a column referring parent row, does not exist in the parent table, while time of insertion
-CREATE database Google;
+-- ONLY_FULL_GROUP_BY enforces that when aggregate functions are used, 
+-- -- all selected non-aggregated columns must be included in the GROUP BY clause or be functionally dependent on it, 
+-- -- to prevent ambiguous results.
 
+-- SET OPERATORS
+-- UNION - It combines results removing duplicates
+-- UNION ALL - It combines results keeping duplicates
+-- INTERSECT (conceptual) - similar to inner join / IN
+-- EXCEPT / MINUS (conceptual) - similar to left join / NOT IN
+
+-- 
+-- IS NULL 
+-- -- Handle NULL using COALESCE
+-- IS NOT NULL
+
+-- FUNCTIONS
+-- -- AGGREGATE FUNCTIONS:-
+-- COUNT()
+-- AVG()
+-- SUM()
+-- MIN()
+-- MAX()
+
+-- -- STRING FUNCTIONS:-
+-- UPPER(), UCASE()
+-- LOWER(), LCASE()
+-- REPLACE(string, from_substring, to_substring) - search for a substring and replace it with another substring within a string.
+-- CEILING()or CEIL() - is a numeric function that rounds up to the nearest integer.
+-- FLOOR() - is a numeric function that rounds down to the nearest integer
+-- ROUND() - is a numeric function that rounds to the nearest integer
+-- CEILING() or CEIL() : returns the smallest integer greater than or equal to a number
+-- FLOOR()            : returns the largest integer less than or equal to a number
+-- ROUND()            : rounds a number to the nearest integer
+
+
+CREATE database Google;
 -- Parent Table
 CREATE TABLE Employee (
     emp_id INT PRIMARY KEY,
@@ -68,6 +117,7 @@ CREATE TABLE Branch_Supplier (
 -- DROP TABLE Employee, Branch, Client, Works_with, Branch_Supplier;
 -- DROP TABLE Employee;
 
+-- Inserting values
 INSERT INTO Branch VALUES
 (1, 'Corporate', 100, '2006-02-09'), 
 (2, 'Scranton', 102, '1992-04-06'),
@@ -120,10 +170,63 @@ ADD FOREIGN KEY(mgr_id) REFERENCES Employee(emp_id) ON DELETE SET NULL;
 -- inserted parent rows in Branch and Employee in the correct order, and 
 -- then re-added the foreign key once all referenced parent rows existed.
 
+-- Returning values using SELECT
 SELECT * FROM employee;
 SELECT * FROM branch;
 SELECT * FROM Client;
 SELECT * FROM branch_supplier;
 SELECT * FROM works_with;
+
+-- Apllting conditions using WHERE clause, using Aliasing, and also using STRING Functions
+SELECT * FROM Employee WHERE sex = 'M';
+SELECT * FROM Employee ORDER BY sex, super_id, emp_id;
+SELECT first_name AS name, UCASE(last_name) AS surname FROM Employee;
+SELECT DISTINCT sex FROM Employee;
+
+-- Using UNION Operator to combine columns from two different tables
+SELECT branch_id FROM branch
+UNION 
+SELECT client_id FROM client ORDER BY branch_id;
+
+SELECT branch_id FROM branch_supplier
+UNION ALL
+SELECT branch_id FROM branch;
+
+-- Using AGGREGATE Functions
+SELECT COUNT(employee_id) FROM morningstar.LCTR;
+SELECT COUNT(emp_id) FROM Employee;
+
+SELECT COUNT(emp_id) FROM Employee
+WHERE sex = 'F' AND birth_date > '1970-01-01';
+
+SELECT AVG(salary) FROM Employee
+WHERE sex = 'M';
+
+SELECT COUNT(sex), sex FROM Employee WHERE sex = 'F'
+UNION 
+SELECT COUNT(sex), sex FROM Employee WHERE sex = 'M';
+
+-- Using GROUP BY clause
+SELECT COUNT(sex), sex FROM Employee
+GROUP BY sex
+Having sex = 'M';
+
+SELECT MIN(emp_id) FROM Employee;
+-- SET SESSION sql_mode = (
+--  SELECT REPLACE(@@sql_mode, 'ONLY_FULL_GROUP_BY', ''));
+-- SET SESSION sql_mode = CONCAT(@@sql_mode, ',ONLY_FULL_GROUP_BY');
+
+-- If you use an aggregate function, 
+-- every other selected column must either be aggregated or be functionally dependent on GROUP BY columns.
+-- Disabling ONLY_FULL_GROUP_BY can lead to ambiguous and unpredictable results, which is why modern MySQL enables it by default.
+
+SELECT * FROM Employee;
+
+SELECT AVG(salary) AS AVG_salary FROM Employee;
+SELECT branch_id, AVG(salary) AS AVG_salary FROM Employee 
+GROUP BY branch_id
+Having branch_id > 1;
+
+
 
 

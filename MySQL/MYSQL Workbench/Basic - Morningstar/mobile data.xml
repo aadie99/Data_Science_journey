@@ -1,0 +1,1352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Table1">
+	<Table>
+		<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="11" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="13" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Row>
+			<Cell><Data ss:Type="String">Phone_name</Data></Cell>
+			<Cell><Data ss:Type="String">Brands</Data></Cell>
+			<Cell><Data ss:Type="String">Price</Data></Cell>
+			<Cell><Data ss:Type="String">Internal_Storage</Data></Cell>
+			<Cell><Data ss:Type="String">Operating_System_Type</Data></Cell>
+			<Cell><Data ss:Type="String">USB_Type</Data></Cell>
+			<Cell><Data ss:Type="String">5G_Availability</Data></Cell>
+			<Cell><Data ss:Type="String">Selfie_Camera</Data></Cell>
+			<Cell><Data ss:Type="String">RAM_Storage</Data></Cell>
+			<Cell><Data ss:Type="String">Country_of_Origin</Data></Cell>
+			<Cell><Data ss:Type="String">Battery_Capacity</Data></Cell>
+			<Cell><Data ss:Type="String">Price_Range</Data></Cell>
+			<Cell><Data ss:Type="String">Battery_Capacity_Range</Data></Cell>
+			<Cell><Data ss:Type="String">Total_Mobile</Data></Cell>
+		</Row>
+
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 Pro 5G 128 GB, 8 GB RAM, Sunrise Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">20999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">8 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 20,000-30,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 Pro 5G 128 GB, 6 GB RAM, Sunrise Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">18999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">6 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 Pro 5G 128 GB, 8 GB RAM, Aurora Green, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">20999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">8 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 20,000-30,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme C30 32GB, 2GB RAM, Lake Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">6999</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">5 MP</Data></Cell>
+			<Cell><Data ss:Type="String">2 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 5,000-10,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 5G Speed Edition 128 GB, 8 GB RAM, Azure Glow, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">22999</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">8 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 20,000-30,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 5G 64 GB, 4 GB RAM, Stargaze White, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">15999</Data></Cell>
+			<Cell><Data ss:Type="String">64 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 5G 128 GB, 6 GB RAM, Stargaze White, Smartphone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">17499</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">6 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme C30 32GB, 3GB RAM, Bamboo Green, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">7999</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">5 MP</Data></Cell>
+			<Cell><Data ss:Type="String">3 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 5,000-10,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 128GB, 8GB RAM, Sunburst Gold, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">17999</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">8 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 Pro 5G 128 GB, 6 GB RAM, Midnight Black, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">18999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">6 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 Pro 5G 128 GB, 6 GB RAM, Aurora Green, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">18999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">6 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 128GB, 6GB RAM, Stargaze White, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">16999</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">6 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 5G 128 GB, 6 GB RAM, Meteor Black, Smartphone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">17499</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">6 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 128GB, 8GB RAM, Stargaze White, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">17999</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">8 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 128GB, 6GB RAM, Meteor Black, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">16999</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">6 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 5G 64 GB, 4 GB RAM, Meteor Black, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">15999</Data></Cell>
+			<Cell><Data ss:Type="String">64 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 5G Speed Edition 128 GB, 8 GB RAM, Starry Glow, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">22999</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">8 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 20,000-30,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 128GB, 8GB RAM, Meteor Black, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">17999</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">8 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme GT Neo 3 5G 128GB, 8 GB RAM, Sprint White, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">36999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">8 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 30,000-50,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme GT Neo 3 5G 128GB, 8 GB RAM, Asphalt Black, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">36999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">8 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 30,000-50,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme C35 64 GB, 4 GB RAM, Glowing Green, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">11999</Data></Cell>
+			<Cell><Data ss:Type="String">64 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">8 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme C31 32GB, 3GB, Light Silver, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">8099</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">5 MP</Data></Cell>
+			<Cell><Data ss:Type="String">3 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 5,000-10,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme C31 32GB, 3GB, Dark Green, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">8099</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">5 MP</Data></Cell>
+			<Cell><Data ss:Type="String">3 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 5,000-10,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme C30s 64 GB, 4 GB RAM, Stripe Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">8999</Data></Cell>
+			<Cell><Data ss:Type="String">64 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">Yes</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 5,000-10,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme C30s 64 GB, 4 GB RAM, Stripe Black, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">8999</Data></Cell>
+			<Cell><Data ss:Type="String">64 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">Yes</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 5,000-10,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">realme C21Y 64 GB, 4 GB RAM, Cross Black Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">10499</Data></Cell>
+			<Cell><Data ss:Type="String">64 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">5 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">realme C21Y 64 GB, 4 GB RAM, Cross Blue Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">10499</Data></Cell>
+			<Cell><Data ss:Type="String">64 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">5 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">realme C25Y 128 GB, 4 GB RAM, Metal Grey, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">11999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Micro USB</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">8 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">realme C11 2021 32 GB, 2 GB RAM, Cool Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">7499</Data></Cell>
+			<Cell><Data ss:Type="String">32 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">5 MP</Data></Cell>
+			<Cell><Data ss:Type="String">2 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 5,000-10,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 8 5G 128 GB, 4 GB RAM, Supersonic Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">16499</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">Yes</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme C30 32 GB, 2 GB RAM, Denim Black, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">6999</Data></Cell>
+			<Cell><Data ss:Type="String">32 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">5 MP</Data></Cell>
+			<Cell><Data ss:Type="String">2 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 5,000-10,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme C25-Y 64 GB, 4 GB, Glacier Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">10999</Data></Cell>
+			<Cell><Data ss:Type="String">64 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">8 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9i 5G 64 GB, 4 GB RAM, Soulful Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">14999</Data></Cell>
+			<Cell><Data ss:Type="String">64 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Yes</Data></Cell>
+			<Cell><Data ss:Type="String">Yes</Data></Cell>
+			<Cell><Data ss:Type="String">8 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">realme C25Y 128 GB, 4 GB RAM, Glacier Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">11999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Micro USB</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">8 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme C33 64 GB, 4 GB RAM, Aqua Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">9999</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Micro USB</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">5 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 5,000-10,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">realme C11 2021 64 GB, 4 GB RAM, Cool Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">8999</Data></Cell>
+			<Cell><Data ss:Type="String">64 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Micro USB</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">5 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 5,000-10,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 8i 128 GB, 6 GB RAM, Space Purple, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">15999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">6 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 10 Pro Plus 5G 128 GB, 8 GB RAM, Dark Matter, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">25999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">Yes</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">8 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 20,000-30,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 10 Pro Plus 5G 128 GB, 8 GB RAM, Nebula Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">25999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">Yes</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">8 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 20,000-30,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 10 Pro Plus 5G 128 GB, 6 GB RAM, Dark Matter, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">24999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">Yes</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">6 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 20,000-30,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 10 Pro Plus 5G 128 GB, 6 GB RAM, Nebula Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">24999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">Yes</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">6 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 20,000-30,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 10 Pro Plus 5G 128 GB, 6 GB RAM, Hyperspace, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">24999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">Yes</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">6 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 20,000-30,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 10 Pro 5G 128 GB, 8 GB RAM, Hyperspace, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">19999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">Yes</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">8 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 10 Pro 5G 128 GB, 8 GB RAM, Nebula Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">19999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">Yes</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">8 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 10 Pro 5G 128 GB, 8 GB RAM, Dark Matter, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">19999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">Yes</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">8 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 10 Pro 5G 128 GB, 6 GB RAM, Hyperspace, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">18999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">Yes</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">6 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 10 Pro 5G 128 GB, 6 GB RAM, Dark Matter, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">18999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">Yes</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">6 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme C33 64 GB, 4 GB RAM, Sandy Gold, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">9999</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Micro USB</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">5 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 5,000-10,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">realme C11 2021 32 GB, 2 GB RAM, Cool Grey, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">7499</Data></Cell>
+			<Cell><Data ss:Type="String">32 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">5 MP</Data></Cell>
+			<Cell><Data ss:Type="String">2 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 5,000-10,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 8s 5G 128 GB, 6 GB RAM, Universe Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">17999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">Yes</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">6 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme C25-Y 128 GB, 4 GB, Glacier Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">11999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">8 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">realme GT Neo 2 256 GB, 12 GB RAM, Neo Blue Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">35999</Data></Cell>
+			<Cell><Data ss:Type="String">256 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">Yes</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">12 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 30,000-50,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 8i 64 GB, 4 GB RAM, Space Black, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">13999</Data></Cell>
+			<Cell><Data ss:Type="String">64 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 8i 64 GB, 4 GB RAM, Space Purple, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">13999</Data></Cell>
+			<Cell><Data ss:Type="String">64 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">realme C21Y 32 GB, 3 GB RAM, Cross Blue Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">9499</Data></Cell>
+			<Cell><Data ss:Type="String">32 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">5 MP</Data></Cell>
+			<Cell><Data ss:Type="String">3 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 5,000-10,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">realme C21Y 32 GB, 3 GB RAM, Cross Black Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">9499</Data></Cell>
+			<Cell><Data ss:Type="String">32 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">5 MP</Data></Cell>
+			<Cell><Data ss:Type="String">3 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 5,000-10,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme C25-Y 128 GB, 4 GB, Metal Grey, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">11999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">8 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">realme C25Y 64 GB, 4 GB RAM, Metal Grey, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">10999</Data></Cell>
+			<Cell><Data ss:Type="String">64 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Micro USB</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">8 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">realme C21Y 64 GB, 4 GB, Cross Black, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">10499</Data></Cell>
+			<Cell><Data ss:Type="String">64 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">5 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">realme C21Y 64 GB, 4 GB, Cross Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">10499</Data></Cell>
+			<Cell><Data ss:Type="String">64 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">5 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">realme C21Y 32 GB, 3 GB, Cross Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">9499</Data></Cell>
+			<Cell><Data ss:Type="String">32 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">5 MP</Data></Cell>
+			<Cell><Data ss:Type="String">3 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 5,000-10,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">realme C21Y 32 GB, 3 GB, Cross Black, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">9499</Data></Cell>
+			<Cell><Data ss:Type="String">32 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">5 MP</Data></Cell>
+			<Cell><Data ss:Type="String">3 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 5,000-10,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">realme GT Neo 2 256 GB, 12 GB RAM, Neo Black Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">35999</Data></Cell>
+			<Cell><Data ss:Type="String">256 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">12 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 30,000-50,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 8s 5G 128 GB, 6 GB RAM, Universe Purple, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">17999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">Yes</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">6 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">realme C11 2021 64 GB, 4 GB RAM, Cool Grey, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">8999</Data></Cell>
+			<Cell><Data ss:Type="String">64 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Micro USB</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">5 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 5,000-10,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme C35 128 GB, 6 GB RAM, Glowing Green, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">13999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme C31 64 GB, 4 GB RAM, Dark Green, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">8999</Data></Cell>
+			<Cell><Data ss:Type="String">64 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Between 5,000-10,000</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme Narzo 50A 128 GB, 4 GB RAM, Oxygen Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">12499</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">8 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">6000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 5001 mAh-6000mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">realme C25s 128 GB, 4 GB RAM, Watery Grey Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">11999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">8 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">6000 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 5001 mAh-6000mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">realme GT Series GT-Master 5G 128 GB, 8 GB RAM, Luna White, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">27999</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">32 MP</Data></Cell>
+			<Cell><Data ss:Type="String">8 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">4300 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 20,000-30,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">realme GT 5G 128 GB, 8 GB RAM, Dashing Silver, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">37999</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">8 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">4500 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 30,000-50,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">realme GT 5G 128 GB, 8 GB RAM, Dashing Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">37999</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">8 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">4500 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 30,000-50,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme X50 Pro 128 GB, 8 GB RAM, Moss Green, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">41999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Type C</Data></Cell>
+			<Cell><Data ss:Type="String">Yes</Data></Cell>
+			<Cell><Data ss:Type="String">32 MP, 8 MP</Data></Cell>
+			<Cell><Data ss:Type="String">8 GB</Data></Cell>
+			<Cell><Data ss:Type="String">India</Data></Cell>
+			<Cell><Data ss:Type="String">4200 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 30,000-50,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9i 4 GB RAM, 64 GB, Prism Black, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">13499</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">4880 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 Pro Plus 5G 256 GB, 8 GB RAM, Sunrise Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">28999</Data></Cell>
+			<Cell><Data ss:Type="String">256 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">8 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">4500 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 20,000-30,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 Pro Plus 5G 128 GB, 6 GB RAM, Sunrise Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">24999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">6 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">4500 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 20,000-30,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 Pro Plus 5G 128 GB, 6 GB RAM, Aurora Green, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">24999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">6 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">4500 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 20,000-30,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9i 4 GB RAM, 64 GB, Prism Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">13499</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">4 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">4880 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 10,000-20,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 Pro Plus 5G 128 GB, 8 GB RAM, Aurora Green, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">26999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">8 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">4500 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 20,000-30,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 Pro Plus 5G 128 GB, 6 GB RAM, Midnight Black, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">24999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">6 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">4500 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 20,000-30,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 Pro Plus 5G 256 GB, 8 GB RAM, Aurora Green, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">28999</Data></Cell>
+			<Cell><Data ss:Type="String">256 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">8 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">4500 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 20,000-30,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Realme 9 Pro Plus 5G 128 GB, 8 GB RAM, Sunrise Blue, Mobile Phone</Data></Cell>
+			<Cell><Data ss:Type="String">realme</Data></Cell>
+			<Cell><Data ss:Type="Number">26999</Data></Cell>
+			<Cell><Data ss:Type="String">128 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Android</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">No</Data></Cell>
+			<Cell><Data ss:Type="String">16 MP</Data></Cell>
+			<Cell><Data ss:Type="String">8 GB</Data></Cell>
+			<Cell><Data ss:Type="String">Not Specified</Data></Cell>
+			<Cell><Data ss:Type="String">4500 mAh</Data></Cell>
+			<Cell><Data ss:Type="String">Between 20,000-30,000</Data></Cell>
+			<Cell><Data ss:Type="String">Between 4001 mAh-5000 mAh</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+		</Row>	</Table>
+</Worksheet>
+</Workbook>
