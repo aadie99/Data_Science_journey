@@ -15,7 +15,13 @@
 ## Operator Precedence
 
 ## Expression = An expression is anything that Python can evaluate to a value. (produces a value)
+# Examples
+# 2 + 3
+# len("abc")
+
 ## Statement = Performs an action
+# if x > 4:
+#    print(x)
 
 ## Statements tell Python what to do
 ## Expressions tell Python what something is

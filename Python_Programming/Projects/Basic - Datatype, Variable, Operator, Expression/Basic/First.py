@@ -11,6 +11,18 @@
 # Simple/Expressive, Easy to learn, Open source, Platform independent,
 # Portable (lightweight), Dynamically typed, extensible, embeddable, huge library, scalable
 
+# py - Windows specific launcher (find and run python installed)
+# python - Actual interpreter executable (finds python.exe via PATH )
+# conda - environment/package manager (Anaconda) (Not a Python, creates isolated environments with their own python/libraries)
+
+# Commands 
+# py -m pip install <package>
+# py -m pip show IPython
+# py -m IPython
+
+# \n = New line
+# \" = if u want to print a quotation mark
+# ''' or """ = Triple quotations for multi-line
 a = 23
 b = 54
 c = a + b
@@ -23,3 +35,12 @@ if (d > 200):
     print("Eligible")
 else:
     print("Not Eligible")
+
+## Expressions
+# Area of Triangle, Rectangle, Rhombus, Cuboid, Circle
+# Quadratic Equations
+# Displacement 
+# Conversions (km to mile)
+# Arithmetic Assignment Operators
+
+## Sequence Datatypes -> String and Methods
