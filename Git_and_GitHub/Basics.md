@@ -55,6 +55,7 @@ CLI is a text-based interface that allows users to interact with the operating s
 2. -u =
 3. -a =
 4. -M = 
+5. -A =
 
 ### Nested Repository Situation
 When a repository is present in another repository, and you try to run git in the parent repo, but the git was initiated in child repo, then it shows you error, so whenever you run any git commands, be sure that you are present in the right directory, you have given the correct path.
