@@ -6,9 +6,9 @@
 # Indexed = Each character has an index
 # Immutable = cannot be changed directly
 
-s1 = 'Hello' #s1 -> variable #'Hello' -> literal
-for x in s1:
-    print(x)
+# s1 = 'Hello' #s1 -> variable #'Hello' -> literal
+# for x in s1:
+#     print(x)
 
 ## String Operators
 # Concatenation operator = Use + to append other string to a string 
@@ -20,7 +20,7 @@ for x in s1:
 # The one which comes first in alphabet series is smaller than the next one.
 # abcde < abcdf
 
-# Indexing -> Every charcater is indexed from 0 to n and -1 to n (counting from the other end)
+# Indexing -> Every character is indexed from 0 to n and -1 to n (counting from the other end)
 # String indices must be integers, cannot be tuples
 
 # Slicing = string[start:end:step] (Prints the content in the following order -> start end and step)
@@ -32,6 +32,7 @@ for x in s1:
 # object.method() -> s.upper()
 # function(object) -> Built-in Functions 
 ## len() 
+## sorted()
 
 # dir(str) -> Displays methods of str object
 
@@ -42,6 +43,8 @@ for x in s1:
 # .count() -> s.count(substring[, start [, end]])
 # .index() -> s.index(substring[, start [, end]]) 
 # .rindex() -> 
+
+# Converting string into list -> list(string)
 
 ## Removing spaces and Adding spaces methods
 # .rjust() -> s.rjust(width[, fill])
@@ -82,6 +85,42 @@ for x in s1:
 # .replace() -> s.replace(old, new [, count])
 
 ## Joining and Splitting methods
-# .join() -> s1.join(s2) (s2 = iterable)
+# .join() -> s1.join(s2) (s1 = separator, s2 = iterable)
 # .split() -> s.split([sep[, maxsplit]]) (separates using separator provided, whitespace)
 # .rsplit()
+# .splitlines() -> keep ends
+
+# Problem 1
+# s = str(input("Enter your name:"))
+# print("The sorted list of your name:", sorted(s))
+
+# Problem 5
+# s = str(input("Enter your mail: "))
+# v = s.partition('@')
+# print("The user_id:", v[0], "\nThe domain name:", v[2])
+
+# Problem 6
+# s = str(input("Enter name:"))
+# v = s[::-1]
+# if s == v:
+#     print('Palindrome')
+# else:
+#     print('Not palindrome')
+
+# Problem 7
+# s = str(input("Enter name:"))
+# v = s[::-1]
+# if s == v:
+#     print('Palindrome')
+# else:
+#     print(s + v)
+
+# Problem 9 - (If the cases are not identical, or input contains spaces)
+# s1 = str(input("Enter name:"))
+# s2 = str(input("Enter name:"))
+# if sorted(s1.replace(" ","").lower()) == sorted(s2.replace(" ","").lower()):
+#     print("Anagram")
+# else:
+#     print("Not Anagram")
+
+# Sliding Window Technique

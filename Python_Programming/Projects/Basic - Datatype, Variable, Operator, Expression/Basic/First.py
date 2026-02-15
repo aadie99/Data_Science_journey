@@ -15,6 +15,17 @@
 # python - Actual interpreter executable (finds python.exe via PATH )
 # conda - environment/package manager (Anaconda) (Not a Python, creates isolated environments with their own python/libraries)
 
+## Interpreters
+# Python 3
+# This is the standard, official Python implementation.
+# Written in C
+# (py → CPython 3.14.2)
+
+# PyPy 3
+# An alternative Python implementation
+# Uses JIT (Just-In-Time) compilation
+# Often faster for loops & heavy computation
+
 # Commands 
 # py -m pip install <package>
 # py -m pip show IPython
@@ -43,4 +54,16 @@ else:
 # Conversions (km to mile)
 # Arithmetic Assignment Operators
 
-## Sequence Datatypes -> String and Methods
+## Sequence Datatypes 
+# -> String and Methods
+# 1.Sorting letter of strings
+# 2.Display data within 25 letters
+# 3.Confirming Password
+# 4.Credit Card Details
+# 5.Find user_id and Domain_name from email
+# 6.Check a string is palindrome
+# 7.Convert a string in palindrome
+# 8.Find day, month and year from date
+# 9.Check if a string is anagram or not (anagram -> decimal medical)
+# 10.Rearrange lowercase then uppercase
+# 11.Remove punctuations 
