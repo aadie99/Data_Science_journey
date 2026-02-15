@@ -1,6 +1,10 @@
 -- When using GROUP BY, every selected column must either be:
 -- 1.Included in the GROUP BY clause, or
 -- 2.Wrapped inside an aggregate function.
+-- Ex:- SELECT AVG(salary), first_name, last_name FROM Employee
+--    GROUP BY first_name, last_name;
+-- In the above example, every selected non-aggregated columns are included in the GROUP BY clause, 
+-- and the salary is wrapped inside an aggregated function.
 
 -- Remember this rule:
 -- WHERE before GROUP BY, HAVING after GROUP BY
@@ -40,15 +44,18 @@
 -- -- Handle NULL using COALESCE
 -- IS NOT NULL
 
--- FUNCTIONS
--- -- AGGREGATE FUNCTIONS:-
+-- -- FUNCTIONS
+-- AGGREGATE FUNCTIONS:-
 -- COUNT()
 -- AVG()
 -- SUM()
 -- MIN()
 -- MAX()
+-- Cannot use Aggregate inside another aggregate = Count(Max(salary)) ❌
+-- When you need to count rows that match an aggregate condition, 
+-- use a subquery to compute the aggregate first, then filter using WHERE.
 
--- -- STRING FUNCTIONS:-
+-- STRING FUNCTIONS:-
 -- UPPER(), UCASE()
 -- LOWER(), LCASE()
 -- REPLACE(string, from_substring, to_substring) - search for a substring and replace it with another substring within a string.
@@ -57,8 +64,24 @@
 -- ROUND() - is a numeric function that rounds to the nearest integer
 -- CEILING() or CEIL() : returns the smallest integer greater than or equal to a number
 -- FLOOR()            : returns the largest integer less than or equal to a number
--- ROUND()            : rounds a number to the nearest integer
+-- ROUND(x, y)            : rounds a number to the nearest integer
+--                        : x -> aggregated integer
+--                        : y -> no.of decimal places to be rounded off
+-- TRUNCATE(x, y)         : truncates a number to the asked integer
+--                        : x -> aggregated integer
+--                        : y -> no.of decimal places after the integer to be cut off 
 
+-- While writing range conditions, use Where a > x AND a < y; 
+-- OR Where a BETWEEN x AND y;
+
+-- -- JOINS
+-- Join is used to combine rows from two or more tables based on related columns
+
+-- JOIN / INNER JOIN ->
+-- LEFT JOIN ->
+-- RIGHT JOIN -> 
+-- FULL OUTER JOIN ->
+-- SELF JOIN ->
 
 CREATE database Google;
 -- Parent Table
@@ -177,10 +200,10 @@ SELECT * FROM Client;
 SELECT * FROM branch_supplier;
 SELECT * FROM works_with;
 
--- Apllting conditions using WHERE clause, using Aliasing, and also using STRING Functions
+-- Applying conditions using WHERE clause, using Aliasing, and also using STRING Functions
 SELECT * FROM Employee WHERE sex = 'M';
 SELECT * FROM Employee ORDER BY sex, super_id, emp_id;
-SELECT first_name AS name, UCASE(last_name) AS surname FROM Employee;
+SELECT UCASE(first_name) AS name, UCASE(last_name) AS surname FROM Employee;
 SELECT DISTINCT sex FROM Employee;
 
 -- Using UNION Operator to combine columns from two different tables
@@ -190,7 +213,7 @@ SELECT client_id FROM client ORDER BY branch_id;
 
 SELECT branch_id FROM branch_supplier
 UNION ALL
-SELECT branch_id FROM branch;
+SELECT branch_id FROM branch ORDER BY branch_id;
 
 -- Using AGGREGATE Functions
 SELECT COUNT(employee_id) FROM morningstar.LCTR;
@@ -202,9 +225,14 @@ WHERE sex = 'F' AND birth_date > '1970-01-01';
 SELECT AVG(salary) FROM Employee
 WHERE sex = 'M';
 
+-- UNION is widely used when we want to combine rows from two different tables
 SELECT COUNT(sex), sex FROM Employee WHERE sex = 'F'
 UNION 
 SELECT COUNT(sex), sex FROM Employee WHERE sex = 'M';
+
+SELECT branch_id, branch_name FROM branch
+UNION 
+SELECT emp_id, first_name FROM employee;
 
 -- Using GROUP BY clause
 SELECT COUNT(sex), sex FROM Employee
@@ -213,7 +241,7 @@ Having sex = 'M';
 
 SELECT MIN(emp_id) FROM Employee;
 -- SET SESSION sql_mode = (
---  SELECT REPLACE(@@sql_mode, 'ONLY_FULL_GROUP_BY', ''));
+-- SELECT REPLACE(@@sql_mode, 'ONLY_FULL_GROUP_BY', ''));
 -- SET SESSION sql_mode = CONCAT(@@sql_mode, ',ONLY_FULL_GROUP_BY');
 
 -- If you use an aggregate function, 
@@ -227,6 +255,34 @@ SELECT branch_id, AVG(salary) AS AVG_salary FROM Employee
 GROUP BY branch_id
 Having branch_id > 1;
 
+-- JOINS
+-- Find all branches and the names of theri managers
+SELECT employee.emp_id, employee.first_name, branch.branch_name
+FROM Employee -- LEFT Table is the one in the FROM
+JOIN branch -- RIGHT Table is the one in the JOIN
+ON employee.emp_id = branch.mgr_id;
 
+SELECT * FROM employee;
 
+-- To find employee names with no supervisors (CEO)
+SELECT e.first_name AS Employee, s.first_name AS Supervisor
+FROM Employee e
+LEFT JOIN Employee s
+ON e.super_id = s.emp_id
+WHERE e.super_id IS NULL;
 
+-- To find employee names and their supervisor names
+SELECT e.first_name AS Employee, s.first_name AS Supervisor
+FROM Employee e
+LEFT JOIN Employee s
+ON e.super_id = s.emp_id;
+
+-- To find which employees are supervisors of other employees
+SELECT DISTINCT e.first_name AS Supervisor
+FROM employee e
+JOIN employee s
+ON e.emp_id = s.super_id;
+
+-- Match employee's super_id with supervisor's emp_id
+-- LEFT JOIN is used to preserve all employees even if they do not have a matching supervisor. 
+-- This ensures hierarchical completeness, especially when identifying top-level employees whose supervisor_id is NULL.
