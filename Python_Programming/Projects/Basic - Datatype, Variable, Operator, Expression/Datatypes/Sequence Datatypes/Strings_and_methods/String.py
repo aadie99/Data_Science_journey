@@ -36,12 +36,17 @@
 
 # dir(str) -> Displays methods of str object
 
-# .find() -> s.find(substring[, start [, end]])
+# .find() -> s.find(substring[, start [, end]]) 
+## (if character does not exist in string, returns -1)
 ## If any substring is not found in the specified range, output is -1
 # .rfind() -> starts counting from right side, that is from end 
 # .lfind() -> AttributeError = No such attribute 'lfind' exists in str object
-# .count() -> s.count(substring[, start [, end]])
+
+# .count() -> s.count(substring[, start [, end]]) 
+# (if character does not exist in string, returns 0)
+
 # .index() -> s.index(substring[, start [, end]]) 
+# (ValueError -> substring not found)
 # .rindex() -> 
 
 # Converting string into list -> list(string)
@@ -123,4 +128,10 @@
 # else:
 #     print("Not Anagram")
 
-# Sliding Window Technique
+## Sliding Window Technique
+# An algorithmic approach where a fixed-size (or variable-size) window 
+# moves across a sequence to process subsets of elements efficiently, without recomputing results from scratch at every step.
+
+# Sliding Window Types
+# Fixed-sixe window
+# Variable-size window
