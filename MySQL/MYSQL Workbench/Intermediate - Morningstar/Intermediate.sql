@@ -1,3 +1,6 @@
+-- Queries must follow logical dependency order.
+-- We cannot randomly run statements in relational systems.
+
 -- When using GROUP BY, every selected column must either be:
 -- 1.Included in the GROUP BY clause, or
 -- 2.Wrapped inside an aggregate function.
@@ -19,6 +22,9 @@
 -- this is incompatible with sql_mode=only_full_group_by
 
 -- Error Code: 1231. Variable 'sql_mode' can't be set to the value of 'NO_ENGINE_SUBSTITUTIONONLY_FULL_GROUP_BY'
+
+-- Error Code: 1452. Cannot add or update a child row: 
+-- a foreign key constraint fails (`google`.`branch`, CONSTRAINT `branch_ibfk_1` FOREIGN KEY (`mgr_id`) REFERENCES `employee` (`emp_id`) ON DELETE SET NULL)
 
 -- CONSTRAINTS:-
 -- ON DELETE SET NULL - ensures that when a referenced parent row is deleted, 
@@ -77,11 +83,18 @@
 -- -- JOINS
 -- Join is used to combine rows from two or more tables based on related columns
 
--- JOIN / INNER JOIN ->
+-- JOIN / INNER JOIN -> 
 -- LEFT JOIN ->
 -- RIGHT JOIN -> 
 -- FULL OUTER JOIN ->
--- SELF JOIN ->
+-- SELF JOIN -> When one table contains hierarchical or relational data inside itself.
+-- -- INNER SELF JOIN ->
+-- -- RIGHT SELF JOIN ->
+-- -- LEFT SELF JOIN ->
+Drop database Google;
+USE google;
+-- USE sys;
+-- DROP TABLE IF EXISTS works_with, branch_supplier, client, branch, employee;
 
 CREATE database Google;
 -- Parent Table
@@ -111,7 +124,7 @@ CREATE TABLE Branch (
 );
 SHOW CREATE TABLE Branch;
 ALTER TABLE Branch
-DROP FOREIGN KEY branch_ibfk_1;
+DROP FOREIGN KEY branch_ibfk_2;
 
 CREATE TABLE Client (
     client_id INT PRIMARY KEY,
@@ -256,7 +269,7 @@ GROUP BY branch_id
 Having branch_id > 1;
 
 -- JOINS
--- Find all branches and the names of theri managers
+-- Find all branches and the names of their managers
 SELECT employee.emp_id, employee.first_name, branch.branch_name
 FROM Employee -- LEFT Table is the one in the FROM
 JOIN branch -- RIGHT Table is the one in the JOIN
@@ -270,6 +283,11 @@ FROM Employee e
 LEFT JOIN Employee s
 ON e.super_id = s.emp_id
 WHERE e.super_id IS NULL;
+
+SELECT e.first_name AS Employee, s.first_name
+FROM Employee e
+RIGHT JOIN Employee s
+ON e.super_id = s.emp_id;
 
 -- To find employee names and their supervisor names
 SELECT e.first_name AS Employee, s.first_name AS Supervisor
@@ -286,3 +304,10 @@ ON e.emp_id = s.super_id;
 -- Match employee's super_id with supervisor's emp_id
 -- LEFT JOIN is used to preserve all employees even if they do not have a matching supervisor. 
 -- This ensures hierarchical completeness, especially when identifying top-level employees whose supervisor_id is NULL.
+
+
+
+
+
+
+
