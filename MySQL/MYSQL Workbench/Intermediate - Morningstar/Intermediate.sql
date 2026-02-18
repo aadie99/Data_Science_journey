@@ -76,21 +76,34 @@
 -- TRUNCATE(x, y)         : truncates a number to the asked integer
 --                        : x -> aggregated integer
 --                        : y -> no.of decimal places after the integer to be cut off 
+SELECT CEILING(45.6);
+SELECT FLOOR(45.6);
+SELECT ROUND(45.6);
 
 -- While writing range conditions, use Where a > x AND a < y; 
 -- OR Where a BETWEEN x AND y;
 
 -- -- JOINS
--- Join is used to combine rows from two or more tables based on related columns
+-- Join is used to combine rows from two or more tables based on logical relationship between related columns
+-- to create a temporary result set. 
+-- We use Between for joining range, when there is no matching column in two or more tables
 
 -- JOIN / INNER JOIN -> 
 -- LEFT JOIN ->
 -- RIGHT JOIN -> 
--- FULL OUTER JOIN ->
+-- FULL OUTER JOIN -> (conceptual) Performed using UNION of Left join and Right join
 -- SELF JOIN -> When one table contains hierarchical or relational data inside itself.
+-- -- Aliases are important in SELF JOIN
 -- -- INNER SELF JOIN ->
 -- -- RIGHT SELF JOIN ->
 -- -- LEFT SELF JOIN ->
+
+-- Many-to-many Multiplication Effect
+
+-- -- Nested Query / Sub Queries
+-- Single row Subquery
+-- Multi row Subquery
+
 Drop database Google;
 USE google;
 -- USE sys;
@@ -269,6 +282,10 @@ GROUP BY branch_id
 Having branch_id > 1;
 
 -- JOINS
+-- JOIN - Matches rows from two or more tables based on a logical relationship between columns, to display a temporray result set
+-- Rows are matched
+-- Columns are just selected for display
+
 -- Find all branches and the names of their managers
 SELECT employee.emp_id, employee.first_name, branch.branch_name
 FROM Employee -- LEFT Table is the one in the FROM
@@ -304,6 +321,29 @@ ON e.emp_id = s.super_id;
 -- Match employee's super_id with supervisor's emp_id
 -- LEFT JOIN is used to preserve all employees even if they do not have a matching supervisor. 
 -- This ensures hierarchical completeness, especially when identifying top-level employees whose supervisor_id is NULL.
+
+-- FULL OUTER JOIN (Performed using LEFT JOIN and RIGHT JOIN)
+SELECT e.last_name AS Surname, b.branch_name AS Branch
+FROM Employee e 
+LEFT JOIN Branch b 
+ON e.branch_id = b.branch_id
+UNION
+SELECT e.last_name AS Surname, b.branch_name AS Branch
+FROM Employee e 
+RIGHT JOIN Branch b 
+ON e.branch_id = b.branch_id;
+
+-- JOIN Important Example 
+-- Using Case When...Then, for multiple conditions
+
+-- SELECT CASE WHEN g.grade >= 8 THEN s.Name ELSE NULL END, 
+-- g.Grade, s.Marks
+-- FROM Students s
+-- JOIN Grades g 
+-- ON s.Marks BETWEEN g.Min_Mark AND g.Max_Mark
+-- ORDER BY g.Grade DESC, 
+-- CASE WHEN g.grade >= 8 THEN s.Name END, 
+-- CASE WHEN g.grade < 8 THEN s.Marks END
 
 
 
