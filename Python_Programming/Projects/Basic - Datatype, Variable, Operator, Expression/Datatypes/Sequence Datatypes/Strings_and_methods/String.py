@@ -33,6 +33,7 @@
 # function(object) -> Built-in Functions 
 ## len() 
 ## sorted()
+## any() -> checks if at least one condition is satisfied or not?
 
 # dir(str) -> Displays methods of str object
 

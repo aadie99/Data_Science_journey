@@ -47,7 +47,15 @@ if (d > 200):
 else:
     print("Not Eligible")
 
+# 🔹 if __name__ == '__main__':
+# This block runs only when the file is executed directly.
+# HackerRank uses this to:
+# 1.Read input
+# 2.Call your function
+# 3.Write output to a file
+
 ## Expressions
+
 # Area of Triangle, Rectangle, Rhombus, Cuboid, Circle
 # Quadratic Equations
 # Displacement 
@@ -55,6 +63,7 @@ else:
 # Arithmetic Assignment Operators
 
 ## Sequence Datatypes 
+
 # -> String and Methods
 # 1.Sorting letter of strings
 # 2.Display data within 25 letters
